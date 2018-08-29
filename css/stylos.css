@@ -1,0 +1,79 @@
+body{
+    background-image:url(../img/uno.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+.primera_fila {
+    background:#346856;
+}
+.primera_fila img{
+    width:30%;    
+}
+.primera_fila p {
+    display: inline-block;
+}
+.primera_fila .btn{
+    background: #8895ca;
+}
+.primera_fila .btn:hover{
+    background: rgb(0, 0, 0, 0.7);
+}
+.segunda_fila {
+    background:#346856;
+    height: auto;
+}
+.cuarta {
+    background: #8895ca;
+    height: auto;
+}
+.cuarta .columnauno {
+    height:auto;
+    background: #8895ca;
+}
+.cuarta .columnauno ul li{
+    padding: 5px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.cuarta .columnauno ul li a:hover{
+    padding: 10px;
+    background:#346856;
+    border-radius: 50%;
+}
+.cuarta .columnados img {
+    width: 49%;
+}
+.cuarta .columnatres img {
+    height: 40%;
+}
+.quinta {
+    background: #8895ca;
+    height: auto;
+    color: #fff;
+}
+.quinta .primertexto{
+    font-size: 10px;
+}
+.quinta .columnauno {
+    background: #f2f2f2;
+}
+.quinta .columnatres {
+    background: #8895ca;
+}
+.quinta .columnados {
+    background: #346856;
+}
+
+.quinta .columnados img{
+    margin-top: 10px;
+    border-radius: 50%;
+    width:50%
+}
+.quinta .columnauno img {
+    width: 100%;
+}
+.quinta form label{
+    color: #fff;
+}
